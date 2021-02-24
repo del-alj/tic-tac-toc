@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: wheat;
+}
+
+#begining {
+    display: block;
+    width: 100vh;
+    height: 100vh;
+}
+
+.bigBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.class_titel {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.border_class {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 7px;
+    width: 320px;
+    height: 320px;
+    background-color: black;
+}
+
+.item_class {
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+}
+
+.but {
+    width: 100px;
+    height: 30px;
+    margin: 50px;
+    background-color: wheat;
+}
