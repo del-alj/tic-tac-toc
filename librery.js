@@ -33,5 +33,7 @@ function creat_button(id_name, class_name, parent, text){
     elem.id = id_name;
     elem.className = class_name;
     elem.innerText = text;
+    elem.type = "submit";
+    elem.value = "enter"
     parent.appendChild(elem);
 }

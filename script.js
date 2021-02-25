@@ -1,3 +1,7 @@
+function make_div_onclick() {
+
+}
+
 function main() {
     const parent = document.getElementById("begining")
     let cadre = creat_div("big", "bigBox", parent);
@@ -9,7 +13,14 @@ function main() {
     for (let i = 1; i <= 9; i++) {
         creat_div("item" + i, "item_class", border);
     }
-
+    let mytoken;
+    document.getElementById('bt1').onclick = function () {
+        mytoken = X;
+      }
+    document.getElementById('bt2').onclick = function () {
+        mytoken = O;
+      }
+    make_div_onclick();
 }
 
 main();

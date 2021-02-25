@@ -1,24 +1,34 @@
 body {
     background-color: black;
     color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #begining {
-    display: block;
     width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
 .bigBox {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 .class_titel {
     font-size: 30px;
     margin-top: 50px;
+}
+
+.border {
+    display: flex;
+    align-items: center;
 }
 
 .border_class {
